@@ -9923,6 +9923,10 @@ div li a {
   position: relative;
 }
 
+.navbar-toggler {
+  background-color: lightgrey;
+}
+
 #box1 {
   box-sizing: content-box;
   display: inline-block;
@@ -9939,7 +9943,7 @@ div li a {
 
 .pad {
   padding-bottom: 30px;
-  padding-left: 30px;
+  padding-left: 50px;
 }
 
 .contenedor_yuki {

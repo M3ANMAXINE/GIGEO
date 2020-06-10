@@ -9927,24 +9927,55 @@ div li a {
   box-sizing: content-box;
   display: inline-block;
   border-radius: 50%;
-  padding-left: 40px;
-  padding-top: 20px;
-  height: 200px;
-  width: 200px;
+  height: 70px;
+  width: 70px;
 }
 
-.box {
-  clear: both;
-  width: 25%;
-  box-sizing: content-box;
-  display: inline-block;
-  margin: 5px;
+.padd {
+  padding-left: 60px;
+  padding-bottom: 30px;
+  padding-top: 20px;
 }
 
 .pad {
   padding-bottom: 30px;
+  padding-left: 30px;
 }
 
+.contenedor_yuki {
+  display: flex;
+  min-width: 300px;
+  margin: 10px auto;
+  justify-content: space-between;
+  max-width: 1200px;
+  width: 100%;
+  align-content: center;
+}
+
+.datos_yuki img {
+  float: left;
+}
+
+.texto_yuki {
+  float: left;
+  padding-left: 40px;
+  padding-top: 10px;
+}
+
+@media only screen and (max-width: 990px) {
+  .botones_yuki {
+    display: none;
+  }
+
+  .contenedor_yuki {
+    width: 300px;
+  }
+}
+@media only screen and (max-width: 990px) {
+  .padd {
+    text-align: center;
+  }
+}
 h5 {
   font-family: "Roboto", sans-serif;
   font-weight: 700;
@@ -9955,22 +9986,30 @@ h2 {
   font-weight: bold;
 }
 
+h3 {
+  font-family: "Roboto", sans-serif;
+  font-weight: bold;
+}
+
 span {
   font-family: "Open Sans", sans-serif;
+  color: lightslategray;
 }
 
 .bot1 {
-  background-color: lightblue;
+  background-color: #92dce5;
   color: white;
   font-size: small;
   font-family: "Open Sans", sans-serif;
+  border-radius: 0;
 }
 
 .bot2 {
-  background-color: lightsalmon;
+  background-color: #ef6461;
   color: white;
   font-size: small;
   font-family: "Open Sans", sans-serif;
+  border-radius: 0;
 }
 
 /*# sourceMappingURL=estilos.css.map */

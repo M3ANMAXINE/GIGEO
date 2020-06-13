@@ -9923,8 +9923,8 @@ div li a {
   position: relative;
 }
 
-.navbar-toggler {
-  background-color: lightgrey;
+.navbar-light .navbar-toggler {
+  border-color: transparent;
 }
 
 #box1 {
